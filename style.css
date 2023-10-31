@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.6);
+}
+#main{
+    /* border: 1px solid green; */
+    border-radius: 16px;
+    background: #FF6747;
+    width: 30%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34%;
+    margin-top: 40px;
+}
+.main{
+    /* border: 1px solid red; */
+    background: white;
+    width: 30%;
+    height: 30vh;
+    margin-left: 34%;
+    margin-top: -30px;
+    border-radius: 20px 20px 16px 16px;
+    
+
+}
+
+#first{
+    /* border: 1px solid black; */
+    display: flex;
+    
+}
+#first li{
+    list-style: none;
+    
+}
+.fa-bars{
+    margin: 30px;
+}
+.fa-gear{
+    margin: 30px 300px;
+}
+#first li a{
+    color: aliceblue;
+    font-size: 18px;
+}
+.img{
+    height: 100px ;
+    width: 104px;
+    border: 4px solid whitesmoke;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 38%;
+    margin-top: 10px;
+
+}
+.img img{
+    height: 92px ;
+    width: 96px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+}
+.text{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    color: aliceblue;
+}
+.text p{
+    margin-top: -16px;
+}
+.logo{
+    display: flex;
+    margin-left: 36%;
+}
+.logo li{
+    margin: 10px;
+    list-style: none;
+}
+.logo li a{
+    color: aliceblue;
+    font-size: 17px;
+}
+form{
+    justify-content: center;
+    align-items: center;
+    margin-left: 28%;
+
+}
+form button{
+    margin-top: 50px;
+    width: 180px;
+    height: 55px;
+    border-radius: 40px;
+    background: white;
+    border: none;
+    box-shadow: 1px 3px 20px tomato;
+    color: tomato;
+    font-family: 'Noto Sans Kawi', sans-serif;
+    font-size: 18px;
+    
+}
+.p{
+    text-align: center;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 6%;
+    color: grey;
+    font-size: 18px;
+    font-family: 'Noto Sans Kawi', sans-serif;
+}
+.last li{
+    margin-left: 14.5%;
+    margin-top: 8%;
+    position: absolute;
+    list-style: none;
+}
+.last li a{
+    color: #FF6747;
+    font-size: 16px;
+}
